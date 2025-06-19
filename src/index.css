@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #e8e1da;
+}
+
+@layer utilities {
+  .container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
