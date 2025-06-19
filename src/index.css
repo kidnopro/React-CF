@@ -4,6 +4,7 @@
 
 body {
   background: #e8e1da;
+  @apply font-poppins;
 }
 
 @layer utilities {
